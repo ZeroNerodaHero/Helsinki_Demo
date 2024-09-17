@@ -1,0 +1,4 @@
+fluvio hub smartmodule download infinyon/jolt@0.4.1
+cdk hub download infinyon/mqtt-source@0.2.8
+cdk deploy start --ipkg infinyon-mqtt-source-0.2.8.ipkg --config mqtt-helsinki.yaml
+sdf run --ephemeral --ui
